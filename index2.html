@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Biblioteca Digital</title>
+    <style>
+        /* VARIAVEIS */
+        :root{
+
+            --cor-fundo: beige;
+            --cor-menu: khaki;
+            --cor-card: white;
+            --fonte: Arial;
+        }
+
+        /* BODY */
+
+        body{
+
+          background-color: var(--cor-fundo)
+            font-family: var(--fonte);
+            margin: 0;
+        }
+        /* MENU */
+  .menu{
+
+         background-color: var(--cor-menu);
+
+       padding: 15px;
+
+ text-align: center;
+        }
+
+        .menu a{
+            text-decoration: none;
+            color: black;
+            margin: 15px;
+            font-weight: bold;
+        }
+
+        /* TITULO */
+
+        h2{
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        /* LIVROS */
+
+        .livros{
+
+            display: grid;
+
+            grid-template-columns: 1fr 1fr 1fr;
+
+            gap: 20px;
+
+            padding: 20px;
+        }
+
+        /* CARD */
+
+        .card{
+            background-color: var(--cor-card);
+           padding: 15px;
+           text-align: center;
+            border-radius: 10px;
+            box-shadow: 2px 2px 5px gray;
+        }
+        .card img{
+            width: 180px;
+            height: 240px;
+        }
+        .card button{
+            background-color: var(--cor-menu);
+            border: none;
+            padding: 8px;
+            cursor: pointer;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <!-- MENU -->
+
+    <div class="menu">
+
+        <a href="#">Biblioteca Digital</a>
+
+        <a href="#">Home</a>
+
+        <a href="#">Livros</a>
+
+        <a href="#">Contato</a>
+
+    </div>
+
+    <!-- TITULO -->
+
+    <h2>Livros Disponíveis</h2>
+
+    <!-- LIVROS -->
+
+    <div class="livros">
+
+        <div class="card">
+
+            <img src="imagem1.jpg">
+
+            <p>Perto do coração selvagem</p>
+
+            <button>Ver detalhes</button>
+
+        </div>
+
+        <div class="card">
+
+            <img src="imagem2.jpg">
+
+            <p>O lado feio do amor</p>
+
+            <button>Ver detalhes</button>
+
+        </div>
+
+        <div class="card">
+
+            <img src="imagem3.jpg">
+
+            <p>Biblia sagrada</p>
+
+            <button>Ver detalhes</button>
+
+        </div>
+
+        <div class="card">
+
+            <img src="imagem4.jpg">
+
+            <p>O pequeno principe</p>
+
+            <button>Ver detalhes</button>
+
+        </div>
+
+        <div class="card">
+
+            <img src="imagem5.jpg">
+
+            <p>Os segredos de Landara</p>
+
+            <button>Ver detalhes</button>
+
+        </div>
+
+        <div class="card">
+
+            <img src="imagem6.jpg">
+
+            <p>Corte de rosas e espinhos</p>
+
+            <button>Ver detalhes</button>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
+</html>
